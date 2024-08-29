@@ -1,0 +1,20 @@
+body {
+    color: white; /* Define a cor do texto como branco */
+    background: black; /* Define a cor de fundo da página como preto */
+    margin: 0px; /* Remove todas as margens ao redor do corpo da página */
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228); /* Adiciona uma borda inferior de 2px de espessura e cor azul */
+    padding: 20px; /* Define um espaçamento interno de 20px ao redor do conteúdo do cabeçalho */
+    font-size: 32px; /* Define o tamanho da fonte como 32px */
+    color: rgb(42, 122, 228); /* Define a cor do texto do cabeçalho como azul */
+}
+
+section {
+    background: rgb(184,156,213); /* Define a cor de fundo da seção como roxo claro */
+    padding-bottom: 80px; /* Adiciona um espaçamento interno de 80px na parte inferior da seção */
+    padding-top: 80px; /* Adiciona um espaçamento interno de 80px na parte superior da seção */
+    display: flex; /* Altera o layout da seção para um flexbox */
+    justify-content: center; /* Centraliza horizontalmente os itens filhos da seção */
+}
